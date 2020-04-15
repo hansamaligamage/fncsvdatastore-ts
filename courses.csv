@@ -1,0 +1,16 @@
+Subject,Lectures,Labs,Points,Instructor,Weekend
+Mathamatical Foundation,12,1,1.5,Mark Twain,TRUE
+Mathamatical Foundation,4,3,2,Ralph Nader,FALSE
+Functional Programming,10,6,3,Ralph Nader,TRUE
+Functional Programming,4,3,2.5,Greg Graffin,TRUE
+Functional Programming,7,3,2.5,Mark Twain,TRUE
+Functional Programming,7,3,2.5,Josh Symons,TRUE
+Database Systems,4,3,2,Ralph Nader,FALSE
+Database Systems,12,3,2.5,Josh Symons,TRUE
+Computer System Architecture,8,3,2.5,Ralph Nader,TRUE
+Computer System Architecture,6,3,2.5,Greg Graffin,TRUE
+Computer System Architecture,10,3,2.5,Mark Twain,TRUE
+Artificial Intelligence,11,3,2.5,Ralph Nader,TRUE
+Artificial Intelligence,6,3,2.5,Greg Graffin,TRUE
+Artificial Intelligence,7,3,2.5,Mark Twain,TRUE
+Artificial Intelligence,6,3,2.5,Josh Symons,TRUE

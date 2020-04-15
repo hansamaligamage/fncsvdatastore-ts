@@ -1,0 +1,23 @@
+{
+  "name": "processcsv",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "prestart": "npm run build",
+    "start": "func start",
+    "test": "echo \"No tests yet...\""
+  },
+  "dependencies": {
+    "@types/node": "^13.11.1",
+    "azure-storage": "^2.10.3",
+    "csv-parser": "^2.3.2",
+    "fs": "0.0.1-security",
+    "read-appsettings-json": "^1.0.98"
+  },
+  "devDependencies": {
+    "@azure/functions": "^1.0.2-beta2",
+    "typescript": "^3.3.3"
+  }
+}
