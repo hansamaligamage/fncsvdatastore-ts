@@ -49,6 +49,10 @@ const httpTrigger: AzureFunction = async function (context: Context, req: HttpRe
         }
 
       });
+      context.res = {
+        status: 200,
+        body: "Cosmos DB - Table API example database is created."
+    };
 await tableService.retrieveEntity(table, "Computer System Architecture", "Greg Graffin", function(error, result, response){
   if(!error){
     var row = result;
