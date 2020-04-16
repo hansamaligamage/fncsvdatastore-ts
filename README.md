@@ -1,6 +1,6 @@
 # Azure function to store csv data in Cosmos DB - Table API
 
-This is a http trigger function written in Typescript in Visual Studio Code. It processed a csv file and store the data on Cosmos DB
+This is a http trigger function written in Typescript in Visual Studio Code. It processes a csv file and store the data on Cosmos DB Table API
 
 ## Technology stack  
 * Typescript version 3.8.3 https://www.npmjs.com/package/typescript
