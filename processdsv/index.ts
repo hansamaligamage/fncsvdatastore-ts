@@ -85,11 +85,6 @@ async function readdata (){
       }).on('end', () => {
             console.log('CSV file successfully processed');
       resolve(courses);
-      // return Promise.resolve(courses);
-            
       });
-      // return Promise.resolve('Hello');
-    //   return courses;
     });
- 
 }
