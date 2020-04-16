@@ -90,5 +90,5 @@ out
 # Azure Functions artifacts
 bin
 obj
-appsettings.json
-local.settings.json
+#appsettings.json
+#local.settings.json
