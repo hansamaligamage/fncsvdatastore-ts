@@ -9,6 +9,10 @@ This is a http trigger function written in Typescript in Visual Studio Code. It 
 * CSV Parser version 2.3.2 to convert the csv content to json https://www.npmjs.com/package/csv-parser
 * File stream 0.0.1 to read the csv file https://www.npmjs.com/package/fs
 
+## How to run the solution
+ * You have to create a Cosmos DB account with Table API and go to the Connection String section and get the account name, endpoint and primary key to connect to the database
+ * Open the solution from Visual Studio code, install all the packages from npm i command and run the solution
+
 ## Code snippets
 ### Create Azure Table service
 ```
