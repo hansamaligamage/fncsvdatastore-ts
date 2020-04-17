@@ -14,6 +14,13 @@ This is a http trigger function written in Typescript in Visual Studio Code. It 
  * Open the solution from Visual Studio code, install all the packages from npm i command and run the solution
 
 ## Code snippets
+### Package references in the main file
+```
+import { AzureFunction, Context, HttpRequest } from "@azure/functions"
+import { AppConfiguration } from "read-appsettings-json";
+import { Course } from "./course";
+```
+
 ### Create Azure Table service
 ```
     const account = AppConfiguration.Setting().accountName;
