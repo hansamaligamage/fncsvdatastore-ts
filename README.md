@@ -3,11 +3,11 @@
 This is a http trigger function written in Typescript in Visual Studio Code. It processes a csv file and store the data on Cosmos DB Table API
 
 ## Technology stack  
-* Typescript version 3.8.3 https://www.npmjs.com/package/typescript
-* Azure functions for typescript version 1.2 https://www.npmjs.com/package/@azure/functions 
-* Azure Storage 2.10.3 to connect to the Cosmos DB Table API https://www.npmjs.com/package/azure-storage
-* CSV Parser version 2.3.2 to convert the csv content to json https://www.npmjs.com/package/csv-parser
-* File stream 0.0.1 to read the csv file https://www.npmjs.com/package/fs
+* Typescript version 3.8.3 (npm i typescript) https://www.npmjs.com/package/typescript 
+* Azure functions for typescript version 1.2 (npm i @azure/functions) https://www.npmjs.com/package/@azure/functions 
+* Azure Storage 2.10.3 to connect to the Cosmos DB Table API (npm i azure-storage) https://www.npmjs.com/package/azure-storage
+* CSV Parser version 2.3.2 to convert the csv content to json (npm i csv-parser) https://www.npmjs.com/package/csv-parser
+* File stream 0.0.1 to read the csv file (npm i fs) https://www.npmjs.com/package/fs
 
 ## How to run the solution
  * You have to create a Cosmos DB account with Table API and go to the Connection String section and get the account name, endpoint and primary key to connect to the database
